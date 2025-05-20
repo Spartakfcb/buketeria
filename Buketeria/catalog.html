@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Букетерия</title>
+    <link rel="stylesheet" href="./styles/_normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="./styles/images/flower.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo-link">
+                <img src="./styles/images/logo.png" alt="Логотип" class="header__logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="index.html">ГЛАВНАЯ</a></li>
+                    <li><a href="catalog.html">КАТАЛОГ</a></li>
+                    <li><a href="#!" id="about-link">О НАС</a></li>
+                    <li><a href="#map-anchor">МАГАЗИНЫ</a></li>
+                </ul>
+            </nav>
+            <a href="#!" class="button">СВЯЗЬ С НАМИ</a>
+        </div>
+    </header>
+
+
+
+    <main class="catalog">
+        <div class="catalog-container">
+            <h1 class="catalog-title">Наш каталог</h1>
+
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <img src="./styles/images/catalog1.jpg" alt="Букет роз" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Букет из 21 розы</h3>
+                        <p class="product-price">3 500 ₽</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./styles/images/catalog2.jpeg" alt="Пионы" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Композиция из пионов</h3>
+                        <p class="product-price">4 200 ₽</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./styles/images/catalog3.jpg" alt="Ромашки" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Полевые ромашки</h3>
+                        <p class="product-price">2 800 ₽</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./styles/images/catalog4.jpg" alt="Тюльпаны" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Букет из 15 тюльпанов</h3>
+                        <p class="product-price">3 500 ₽</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./styles/images/catalog5.jpg" alt="Сирень" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Букет "Майская сирень"</h3>
+                        <p class="product-price">3 500 ₽</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./styles/images/catalog6.jpg" alt="Индивидуальный букет" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">Индивидуальный букет</h3>
+                        <p class="product-price">Цена договорная</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="map-anchor" class="map-block">
+        <h2 class="map-title">Где нас найти?</h2>
+        <div class="map-container">
+            <div class="yandex-map">
+                <div style="position:relative;overflow:hidden;width:100%;height:100%;">
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=39.798427%2C47.238812&mode=search&oid=134093262821&ol=biz&z=19.4"
+                        width="100%" height="100%" frameborder="0" allowfullscreen="true" style="border-radius: 15px;">
+                    </iframe>
+                </div>
+            </div>
+            <div class="map-info">
+                <div class="info-card">
+                    <h3>Букетерия</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>улица Вересаева, 102В</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Пн-Пт: Круглосуточно<br>Сб-Вс: Круглосуточно</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+7 (918) 592-72-77</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@buketeriya.ru</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./styles/images/logo.png" alt="Букетерия" width="150">
+                <p>Свежие цветы с доставкой в Ростове-на-Дону</p>
+            </div>
+
+            <div class="footer-contacts">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-map-marker-alt"></i> ул. Вересаева, 102В</p>
+                <p><i class="fas fa-phone"></i> +7 (918) 592-72-77</p>
+                <p><i class="fas fa-clock"></i> Круглосуточно</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://t.me/buketeria_rnd"><i class="fab fa-vk"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2023 Букетерия. Все права защищены</p>
+        </div>
+    </footer>
+    <div class="modal" id="contact-modal">
+        <div class="modal__content">
+            <span class="modal__close" id="close-modal">&times;</span>
+            <h2>Контактная информация</h2>
+            <p>Телефон: +7 (918) 592-72-77</p>
+            <p>Email: info@buketeriya.ru</p>
+            <p>Адрес: ул. Вересаева, 102В, Ростов-на-Дону</p>
+        </div>
+    </div>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>О нашей компании</h2>
+            <div class="modal-body">
+                <img src="./styles/images/magazine.png" alt="Наша мастерская" class="about-photo">
+                <div class="about-text">
+                    <p><strong>Букетерия</strong> - это современная цветочная мастерская, создающая уникальные букеты с
+                        2015 года.</p>
+
+                    <h3>Наши преимущества:</h3>
+                    <ul>
+                        <li>Огромный опыт работы и качество обслуживания</li>
+                        <li>Только свежие цветы от проверенных поставщиков</li>
+                        <li>Опытные флористы с художественным образованием</li>
+                        <li>Индивидуальный подход к каждому клиенту</li>
+                        <li>Круглосуточная доставка по городу</li>
+                    </ul>
+
+                    <h3>Наша миссия:</h3>
+                    <p>Мы создаем не просто букеты, а эмоции и воспоминания, которые останутся с вами надолго.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const contactModal = document.getElementById("contact-modal");
+            const openContactBtn = document.querySelector(".button");
+            const closeContactBtn = document.getElementById("close-modal");
+
+            openContactBtn.addEventListener("click", function (e) {
+                e.preventDefault();
+                contactModal.style.display = "block";
+            });
+
+            closeContactBtn.addEventListener("click", function () {
+                contactModal.style.display = "none";
+            });
+            const aboutModal = document.getElementById("about-modal");
+            const openAboutBtn = document.getElementById("about-link");
+            const closeAboutBtn = aboutModal.querySelector(".modal-close");
+
+            openAboutBtn.addEventListener("click", function (e) {
+                e.preventDefault();
+                aboutModal.style.display = "block";
+            });
+
+            closeAboutBtn.addEventListener("click", function () {
+                aboutModal.style.display = "none";
+            });
+            window.addEventListener("click", function (e) {
+                if (e.target === contactModal) {
+                    contactModal.style.display = "none";
+                }
+                if (e.target === aboutModal) {
+                    aboutModal.style.display = "none";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
